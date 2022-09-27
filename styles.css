@@ -53,3 +53,13 @@ form {
     border-radius: 2px;
     padding: 8px;
 }
+
+#button{
+    background: green;
+    width: 100%;
+    padding: 1rem;
+    color:white;
+    border: none;
+    border-radius: 2px;
+
+}
