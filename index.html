@@ -11,8 +11,28 @@
     <p id="description">Thank you for taking the time to help us improve the platform </p>
 
     <form>
-        <input type="text" placeholder="Enter your name">
+        <label for="fname">Name</label> <br>
+        <input type="text" id="fname" placeholder="Enter your name"> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" placeholder="Enter your Email"> <br>
+        <label for="age">Age (optional)</label> <br>
+        <input type="number" id="age" placeholder="Age"> <br>
+        <label for="radio">Which option best describes your current role?</label> <br>
+        <select name="role" id="role">
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+        </select> <br>
+        <label for="recommend">Would you recommend freeCodeCamp to a friend?</label> <br>
+        <input type="radio" id="recommend" name="recommend" value="Definitely">
+        <label for="recommend">Definitely</label> <br>
+        
+        <input type="radio" id="recommend" name="recommend" value="">
+        <label for="recommend">Maybe</label> <br>
 
+        <input type="radio" id="recommend" name="recommend" value="Definitely">
+        <label for="recommend">Not sure</label>
     </form>
 </body>
-</html>
